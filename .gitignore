@@ -1,0 +1,9 @@
+desktop-settings.json
+census_api_key_path.txt
+.~lock*
+/older_files/**
+*.jupyterlab-workspace
+*checkpoint*
+*.pyc
+data_retrieval/Datasets/county_population_data_csv_string.txt
+data_retrieval/state_fips_codes_from_census.txt
