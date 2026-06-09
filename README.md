@@ -23,4 +23,11 @@ Although I’ve enjoyed using Danfo.js for underlying data manipulation, that li
 2. Display rank and percentile information within the tooltips
 
 3. Add data for additional years as it becomes available
+
+4. Prevent users from choosing an ending year that is less than or equal to the starting year
  
+## Screenshots
+
+Default view: ![](Screenshots/default_view.png)
+
+Filtered view showing only counties with 100K+ residents in 2024: ![](Screenshots/filtered_view.png)
