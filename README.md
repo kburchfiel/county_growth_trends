@@ -16,15 +16,25 @@ The dashboard also shows how to use Plotly.js's `hovertemplate` and `customdata`
 
 Although I’ve enjoyed using Danfo.js for underlying data manipulation, that library hasn’t been updated in a little while, so I used d3-array for certain data-related tasks instead.
 
+## Updates
+
+* 2026-06-09: 
+
+    * I added rank and percentile-rank information to each region's tooltips. The percentile-rank-calculation code takes a little while to run, so I'll look into a faster option. 
+
+    * I clarified that the chart shows changes across 5-year timeframes (as each ACS5 survey covers 5 years of data) rather than population values for single years.
+
 ## Potential future updates
 
 1. Allow an arbitrary number of bins to be specified by the user. (This will also require updating my color-palette code to create custom colors on the fly.)
 
-2. Display rank and percentile information within the tooltips
+2. Find a way to speed up percentile-rank calculations.
 
 3. Add data for additional years as it becomes available
 
 4. Prevent users from choosing an ending year that is less than or equal to the starting year
+
+5. Display a warning message if users choose a minimum-population value that is higher than all counties' populations.
  
 ## Screenshots
 
