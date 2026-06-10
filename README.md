@@ -31,3 +31,5 @@ Although I’ve enjoyed using Danfo.js for underlying data manipulation, that li
 Default view: ![](Screenshots/default_view.png)
 
 Filtered view showing only counties with 100K+ residents in 2024: ![](Screenshots/filtered_view.png)
+
+Linear scale: ![](Screenshots/linear_scale.png)
