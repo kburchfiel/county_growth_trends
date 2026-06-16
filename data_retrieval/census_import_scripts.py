@@ -1,5 +1,9 @@
 # Census Data Import Scripts
 
+# Note: This script comes from census_import_scripts.py within my 
+# Python for Nonprofits guide. Original link:
+# https://github.com/kburchfiel/pfn/blob/main/Census_Data_Imports/census_import_scripts.py
+
 # This Python file stores functions for creating lists of American
 # Community Survey variables; generating aliases for variable codes;
 # using the Census API to download data; and adding certain statistical
