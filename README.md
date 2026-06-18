@@ -26,13 +26,15 @@ Although I’ve enjoyed using Danfo.js for underlying data manipulation, that li
 
     * I clarified that the chart shows changes across 5-year timeframes (as each ACS5 survey covers 5 years of data) rather than population values for single years.
 
+* 2026-06-17:
+
+    * I replaced the continuous colorscale used in the original map with a categorical scale. This involved assigning bin labels to each row, then adding each label's corresponding regions to the map within a for loop. This approach simpler than the original setup *and* allows users to show or hide bins of their choice within the dashboard. (Note: The original map, which does render a little more quickly, is still available at https://github.com/kburchfiel/county_growth_trends/county_growth_map_continuous_colorscale.html .)
+
 ## Potential future updates
 
-1. Allow an arbitrary number of bins to be specified by the user. (This will also require updating my color-palette code to create custom colors on the fly.)
+1. Add data for additional years as it becomes available
 
-3. Add data for additional years as it becomes available
-
-4. Prevent users from choosing an ending year that is less than or equal to the starting year
+2. Prevent users from choosing an ending year that is less than or equal to the starting year
  
 ## Screenshots
 

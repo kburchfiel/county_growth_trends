@@ -8,3 +8,4 @@ census_api_key_path.txt
 data_retrieval/Datasets/county_population_data_csv_string.txt
 data_retrieval/state_fips_codes_from_census.txt
 data_retrieval/Datasets/county_growth_data (copy).csv
+data_retrieval/sample_categorical_choropleth_map_from_plotly_documentation.html
